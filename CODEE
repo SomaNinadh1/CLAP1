@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    float b;
+    long int c;
+    char d= "f";
+    short int e;
+    scanf("%d %f %ld %hd",&a, &b,&c,&e);
+    printf("Hi! I am a and value is %d and my size is %lu bytes\n",a,sizeof(int));
+    printf("Hi , I am float ,my value is %f and my size is %lu bytes\n",b,sizeof(float));
+    printf("my value is %c and my size is %lu\n",d,sizeof(char));
+    printf("my value is %hd and my size is %lu bytes\n",e,sizeof(short int));
+
+    return 0;
+}
